@@ -1,0 +1,1260 @@
+fileFormatVersion: 2
+guid: cbeaab62ccc2139499157663e728a460
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1556071078381340475
+    second: Soda_0
+  - first:
+      213: 6433903061003608118
+    second: Soda_1
+  - first:
+      213: -7316892086772106564
+    second: Soda_2
+  - first:
+      213: 2670301419997377889
+    second: Soda_3
+  - first:
+      213: 8967955594426792720
+    second: Soda_4
+  - first:
+      213: -4290312589542525191
+    second: Soda_5
+  - first:
+      213: -6362371123796080257
+    second: Soda_6
+  - first:
+      213: 9003918614876089817
+    second: Soda_7
+  - first:
+      213: 5969935676728907723
+    second: Soda_8
+  - first:
+      213: -5175455707776632740
+    second: Soda_9
+  - first:
+      213: 1356289434390669765
+    second: Soda_10
+  - first:
+      213: 6016777946882218039
+    second: Soda_11
+  - first:
+      213: -1170444003959104440
+    second: Soda_12
+  - first:
+      213: 331916769725605144
+    second: Soda_14
+  - first:
+      213: 5849769139990522527
+    second: Soda_15
+  - first:
+      213: 4075688111933556002
+    second: Soda_16
+  - first:
+      213: 8632813035141168321
+    second: Soda_18
+  - first:
+      213: -8138612696896510560
+    second: Soda_19
+  - first:
+      213: 3492027291941687700
+    second: Soda_20
+  - first:
+      213: -5486826415821628832
+    second: Soda_21
+  - first:
+      213: 4450387996342011526
+    second: Soda_22
+  - first:
+      213: -352231476904835909
+    second: Soda_23
+  - first:
+      213: -8927342468903022434
+    second: Soda_25
+  - first:
+      213: 7319198580025146681
+    second: Soda_26
+  - first:
+      213: 8219672177709968284
+    second: Soda_27
+  - first:
+      213: 8966396370508604223
+    second: Soda_28
+  - first:
+      213: 1893519777743705053
+    second: Soda_29
+  - first:
+      213: 2223855259982248080
+    second: Soda_30
+  - first:
+      213: 233208306858724757
+    second: Soda_31
+  - first:
+      213: 6494379033296013646
+    second: Soda_33
+  - first:
+      213: -976280407035913955
+    second: Soda_34
+  - first:
+      213: -7799577672341120609
+    second: Soda_35
+  - first:
+      213: -5644483165394054625
+    second: Soda_36
+  - first:
+      213: -8754557970432349991
+    second: Soda_37
+  - first:
+      213: 6472414123586004350
+    second: Soda_38
+  - first:
+      213: -9152505446843248701
+    second: Soda_40
+  - first:
+      213: 9112650017953726838
+    second: Soda_41
+  - first:
+      213: 759344358738363725
+    second: Soda_42
+  - first:
+      213: 8180589368478511324
+    second: Soda_43
+  - first:
+      213: 152877977924927432
+    second: Soda_44
+  - first:
+      213: -2568880644744985821
+    second: Soda_45
+  - first:
+      213: 265585897499057552
+    second: Soda_46
+  - first:
+      213: 9070798376792890255
+    second: Soda_47
+  - first:
+      213: 3958870514798695066
+    second: Soda_48
+  - first:
+      213: 4585151263549913336
+    second: Soda_49
+  - first:
+      213: -6752512180138328163
+    second: Soda_50
+  - first:
+      213: -7279052011103024320
+    second: Soda_51
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Soda_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 968
+        width: 620
+        height: 871
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c832df3999b76ae0800000000000000
+      internalID: -1556071078381340475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_1
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1687
+        width: 168
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6302b66eeb0d94950800000000000000
+      internalID: 6433903061003608118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1685
+        width: 148
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbaf414e96d257a90800000000000000
+      internalID: -7316892086772106564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_3
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1710
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1653a2e5ef0de0520800000000000000
+      internalID: 2670301419997377889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_4
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1683
+        width: 158
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b394f4914947c70800000000000000
+      internalID: 8967955594426792720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1692
+        width: 168
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f67eec4e6fb574c0800000000000000
+      internalID: -4290312589542525191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_6
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1690
+        width: 122
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f798ee41c2154b7a0800000000000000
+      internalID: -6362371123796080257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_7
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1690
+        width: 122
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd6732864854fc70800000000000000
+      internalID: 9003918614876089817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_8
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 1690
+        width: 150
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc79b5f2ed879d250800000000000000
+      internalID: 5969935676728907723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_9
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1519
+        width: 168
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58b43b54761d28b0800000000000000
+      internalID: -5175455707776632740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_10
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1517
+        width: 146
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9a87dfd0282d210800000000000000
+      internalID: 1356289434390669765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_11
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1574
+        width: 85
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73891581aa3ef7350800000000000000
+      internalID: 6016777946882218039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_12
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1519
+        width: 158
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c1882316fb1cfe0800000000000000
+      internalID: -1170444003959104440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_14
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1351
+        width: 168
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8156d722b843b9400800000000000000
+      internalID: 331916769725605144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_15
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1349
+        width: 148
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a6d271a0e8e2150800000000000000
+      internalID: 5849769139990522527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_16
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1438
+        width: 112
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225051f6eb0cf8830800000000000000
+      internalID: 4075688111933556002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_18
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1183
+        width: 168
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc73f387b9edc770800000000000000
+      internalID: 8632813035141168321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_19
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1181
+        width: 146
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5eff45fd6dd0f80800000000000000
+      internalID: -8138612696896510560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_20
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1275
+        width: 158
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491572a025c267030800000000000000
+      internalID: 3492027291941687700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_21
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1015
+        width: 168
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ad8bcf170ead3b0800000000000000
+      internalID: -5486826415821628832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_22
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 1118
+        width: 122
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686c0a2bd44f2cd30800000000000000
+      internalID: 4450387996342011526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 813
+        width: 135
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb44064865f9c1bf0800000000000000
+      internalID: -352231476904835909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_25
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 847
+        width: 168
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90d6c8d255bb1480800000000000000
+      internalID: -8927342468903022434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_26
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 898
+        width: 148
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d31fa6454039560800000000000000
+      internalID: 7319198580025146681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_27
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 620
+        width: 164
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b6092cb44221270800000000000000
+      internalID: 8219672177709968284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 679
+        width: 168
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3364833ef90f6c70800000000000000
+      internalID: 8966396370508604223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_29
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 755
+        width: 105
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3179f9432274a10800000000000000
+      internalID: 1893519777743705053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_30
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 721
+        width: 168
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09830239398bcde10800000000000000
+      internalID: 2223855259982248080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_31
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 719
+        width: 146
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d0cf038b58c3300800000000000000
+      internalID: 233208306858724757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_33
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 456
+        width: 171
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e498a54725ba02a50800000000000000
+      internalID: 6494379033296013646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_34
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 475
+        width: 102
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d195371742e8372f0800000000000000
+      internalID: -976280407035913955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_35
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 511
+        width: 168
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f991a025e6552c390800000000000000
+      internalID: -7799577672341120609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 511
+        width: 168
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12d3028774caa1b0800000000000000
+      internalID: -5644483165394054625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_37
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 268
+        width: 148
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8a0d6d8ef818680800000000000000
+      internalID: -8754557970432349991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_38
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 295
+        width: 165
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75a0936a52a2d950800000000000000
+      internalID: 6472414123586004350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_40
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 270
+        width: 156
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf8414c9c4cbf080800000000000000
+      internalID: -9152505446843248701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_41
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 158
+        width: 130
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671c69219e2a67e70800000000000000
+      internalID: 9112650017953726838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_42
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 220
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d450ccccbabb98a00800000000000000
+      internalID: 759344358738363725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_43
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 220
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0bf7120ba478170800000000000000
+      internalID: 8180589368478511324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_44
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 175
+        width: 171
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cff13006b12f1200800000000000000
+      internalID: 152877977924927432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_45
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 173
+        width: 146
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32349930aa0895cd0800000000000000
+      internalID: -2568880644744985821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_46
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 182
+        width: 142
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dd8c577fc8fa300800000000000000
+      internalID: 265585897499057552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_47
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 114
+        width: 156
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b1ee58013f1ed70800000000000000
+      internalID: 9070798376792890255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_48
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 113
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92185a12cbb0f630800000000000000
+      internalID: 3958870514798695066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_49
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 113
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f87351f7cab1af30800000000000000
+      internalID: 4585151263549913336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_50
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 7
+        width: 168
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f3b51d2f14a42a0800000000000000
+      internalID: -6752512180138328163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soda_51
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 5
+        width: 148
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b8c9013cc9bfa90800000000000000
+      internalID: -7279052011103024320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
