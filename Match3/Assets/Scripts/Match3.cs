@@ -70,25 +70,65 @@ public class Match3 : MonoBehaviour
             // this change since you are modifying the value at the address and not just the value. 
             // Basically, it changes the value outside of the method and not only within it. (Not for global variables)
 
-            if(connected.Count == 0) // if no match
+            if (connected.Count == 0) // if no match
             {
-                if(wasFlipped)  // If we flipped
+                if (wasFlipped)  // If we flipped
                     FlipPieces(piece.index, flippedPiece.index, false); // flip back
             }
             else // If we made a match
             {
-                foreach(Point pnt in connected) // remove nodes connected
+                foreach (Point pnt in connected) // remove nodes connected
                 {
                     Node node = getNodeAtPoint(pnt);
                     NodePiece nodePiece = node.getPiece();
-                    if(nodePiece != null)
+                    if (nodePiece != null)
                         nodePiece.gameObject.SetActive(false);
                     node.SetPiece(null);
-
                 }
+                ApplyGravityToBoard();
             }
             flipped.Remove(flip); // Remove the flip after update
             update.Remove(piece);
+        }
+    }
+
+    void ApplyGravityToBoard()
+    {
+        for (int x = 0; x < width; x++)
+        {
+            for (int y = height - 1; y >= 0; y--)
+            {
+                Point p = new Point(x, y);
+                Node node = getNodeAtPoint(p);
+                int val = getValueAtPoint(p);
+                if (val != 0) continue; // If it is not a hole, do nothing
+                {
+                    for (int ny = (y - 1); ny >= -1; ny--)
+                    {
+                        Point next = new Point(x, ny);
+                        int nextVal = getValueAtPoint(next);
+                        if (nextVal == 0)
+                            continue; 
+                        if(nextVal != -1) // If no dead end it, and its not 0, fill hole
+                        {
+                            Node got = getNodeAtPoint(next);
+                            NodePiece piece = got.getPiece();
+
+                            // Set the hole
+                            node.SetPiece(piece);
+                            update.Add(piece);
+
+                            // Replace the hole
+                            got.SetPiece(null);
+                        }
+                        else // End hit
+                        {
+                            // Fill in the hole
+                        }
+                        break;
+                    }
+                }
+            }
         }
     }
 
