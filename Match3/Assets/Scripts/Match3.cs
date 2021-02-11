@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Match3 : MonoBehaviour
 {
 
@@ -9,30 +10,48 @@ public class Match3 : MonoBehaviour
 
     [Header("UI Elements")]
     public Sprite[] pieces;
-    public RectTransform gameBoard; 
+    public RectTransform gameBoard;
 
     [Header("Prefabs")]
-    public GameObject nodePiece; 
+    public GameObject nodePiece;
 
     int width = 9;
     int height = 14;
     Node[,] board;
 
+    List<NodePiece> update;
+
     System.Random random;
 
     void Start()
     {
-        StartGame(); 
+        StartGame();
     }
 
     void StartGame()
     {
         string seed = getRandomSeed();
         random = new System.Random(seed.GetHashCode());
+        update = new List<NodePiece>();
 
         InitializeBoard();
         VerifyBoard();
         InstantiateBoard();
+    }
+
+    void Update() 
+    {
+        List<NodePiece> finishedUpdating = new List<NodePiece>();
+        for (int i = 0; i < update.Count; i++)
+        {
+            NodePiece piece = update[i];
+            if (!piece.UpdatePiece()) finishedUpdating.Add(piece);
+        }
+        for (int i = 0; i < finishedUpdating.Count; i++)
+        {
+            NodePiece piece = finishedUpdating[i];
+            update.Remove(piece);
+        }
     }
 
     void InitializeBoard()
@@ -70,26 +89,59 @@ public class Match3 : MonoBehaviour
             }
         }
     }
- 
-    void InstantiateBoard() 
+
+    void InstantiateBoard()
     {
         for (int x = 0; x < width; x++)
         {
             for (int y = 0; y < height; y++)
             {
-                // Node node = getNodeAtPoint(new Point(x, y));
+                Node node = getNodeAtPoint(new Point(x, y));
 
-                int val = board[x, y].value;
+                int val = node.value;
                 if (val <= 0) continue;
                 GameObject p = Instantiate(nodePiece, gameBoard);
                 NodePiece piece = p.GetComponent<NodePiece>();
                 RectTransform rect = p.GetComponent<RectTransform>();
                 rect.anchoredPosition = new Vector2(32 + (64 * x), -32 - (64 * y));
                 piece.Initialize(val, new Point(x, y), pieces[val - 1]); // Why is val random? WHAT THE HELL!?
-               // node.SetPiece(piece);
+                node.SetPiece(piece);
             }
         }
     }
+    
+    public void ResetPiece(NodePiece piece)
+    {
+        piece.ResetPosition();
+        piece.flipped = null; 
+        update.Add(piece);
+    }
+
+    public void FlipPieces(Point one, Point two)
+    {
+        if (getValueAtPoint(one) < 0) return;
+
+        Node nodeOne = getNodeAtPoint(one);
+        NodePiece pieceOne = nodeOne.getPiece();
+
+        if (getValueAtPoint(two) > 0)
+        {
+            Node nodeTwo = getNodeAtPoint(two);
+            NodePiece pieceTwo = nodeTwo.getPiece();
+            nodeOne.SetPiece(pieceTwo);
+            nodeTwo.SetPiece(pieceOne);
+
+            pieceOne.flipped = pieceTwo;
+            pieceTwo.flipped = pieceOne; 
+
+            update.Add(pieceOne);
+            update.Add(pieceTwo);
+        }
+        else
+            ResetPiece(pieceOne);
+    }
+
+
     List<Point> isConnected(Point p, bool main)
     {
         List<Point> connected = new List<Point>();
@@ -213,6 +265,11 @@ public class Match3 : MonoBehaviour
         board[p.x, p.y].value = v;
     }
 
+    Node getNodeAtPoint(Point p)
+    {
+        return board[p.x, p.y];
+    }
+
     int newValue(ref List<int> remove)
     {
         List<int> available = new List<int>();
@@ -225,8 +282,6 @@ public class Match3 : MonoBehaviour
         return available[random.Next(0, available.Count)];
     }
 
-
-
     string getRandomSeed()
     {
         string seed = "";
@@ -236,20 +291,35 @@ public class Match3 : MonoBehaviour
         return seed;
     }
 
-
+    public Vector2 getPositionFromPoint(Point p)
+    {
+        return new Vector2(32 + (64 * p.x), -32 - (64 * p.y));
+    }
 }
-
-
 
 [System.Serializable]
 public class Node
 {
     public int value; // 0 = blank, 1 = cube/yellow,  2 = sphere/red, 3 = cylinder/green, 4 = pyramid/blue, 5 = diamond/Orange, -1 = hole
     public Point index; // Where the node is
+    public NodePiece piece; 
 
     public Node(int v, Point i)
     {
         value = v;
         index = i;
+    }
+
+    public void SetPiece(NodePiece p)
+    {
+        piece = p; 
+        value = (piece == null) ? 0 : piece.value;
+        if (piece == null) return;
+        piece.SetIndex(index);
+    }
+
+    public NodePiece getPiece()
+    {
+        return piece; 
     }
 }
