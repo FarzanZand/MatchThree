@@ -24,7 +24,7 @@ public class Match3 : MonoBehaviour
     {
         StartGame(); 
     }
-    
+
     void StartGame()
     {
         string seed = getRandomSeed();
@@ -32,6 +32,7 @@ public class Match3 : MonoBehaviour
 
         InitializeBoard();
         VerifyBoard();
+        InstantiateBoard();
     }
 
     void InitializeBoard()
@@ -64,12 +65,12 @@ public class Match3 : MonoBehaviour
                     val = getValueAtPoint(p);
                     if (!remove.Contains(val))
                         remove.Add(val);
-                    setValueAtPoint(p, newValue(ref remove)); // WHY ARE YOU BROKEN!?!
+                    setValueAtPoint(p, newValue(ref remove));
                 }
             }
         }
     }
-
+ 
     void InstantiateBoard() 
     {
         for (int x = 0; x < width; x++)
@@ -81,10 +82,10 @@ public class Match3 : MonoBehaviour
                 int val = board[x, y].value;
                 if (val <= 0) continue;
                 GameObject p = Instantiate(nodePiece, gameBoard);
-                // NodePiece piece = p.GetComponent<NodePiece>();
+                NodePiece piece = p.GetComponent<NodePiece>();
                 RectTransform rect = p.GetComponent<RectTransform>();
                 rect.anchoredPosition = new Vector2(32 + (64 * x), -32 - (64 * y));
-                //piece.Initialize(val, new Point(x, y), pieces[val - 1]);
+                piece.Initialize(val, new Point(x, y), pieces[val - 1]); // Why is val random? WHAT THE HELL!?
                // node.SetPiece(piece);
             }
         }
