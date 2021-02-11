@@ -15,16 +15,13 @@ public class NodePiece : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     [HideInInspector]
     public Vector2 pos;
     [HideInInspector]
-    public NodePiece flipped;
-    [HideInInspector]
     public RectTransform rect;
 
     bool updating;
     Image img;
 
-    public void Initialize(int v, Point p, Sprite piece)
+    public void Initialize(int v, Point p, Sprite piece) // WHAT RANDOMIZES PIECE!"?!?!?!?! 107 match3
     {
-        flipped = null;
         img = GetComponent<Image>();
         rect = GetComponent<RectTransform>();
 

@@ -20,6 +20,7 @@ public class Match3 : MonoBehaviour
     Node[,] board;
 
     List<NodePiece> update;
+    List<FlippedPieces> flipped; 
 
     System.Random random;
 
@@ -33,12 +34,14 @@ public class Match3 : MonoBehaviour
         string seed = getRandomSeed();
         random = new System.Random(seed.GetHashCode());
         update = new List<NodePiece>();
+        flipped = new List<FlippedPieces>();
 
         InitializeBoard();
         VerifyBoard();
         InstantiateBoard();
     }
 
+    // UPDATE once per frame
     void Update() 
     {
         List<NodePiece> finishedUpdating = new List<NodePiece>();
@@ -50,7 +53,68 @@ public class Match3 : MonoBehaviour
         for (int i = 0; i < finishedUpdating.Count; i++)
         {
             NodePiece piece = finishedUpdating[i];
+            FlippedPieces flip = getFlipped(piece);
+            NodePiece flippedPiece = null;
+
+            List<Point> connected = isConnected(piece.index, true);
+            bool wasFlipped = (flip != null);
+
+            if (wasFlipped) // if we flipped to make this update
+            {
+                flippedPiece = flip.getOtherPiece(piece);
+                AddPoints(ref connected, isConnected(flippedPiece.index, true)); // What is ref? What does it do? What it dooo?
+            }
+
+            // The ref keyword in C# is used for passing or returning references of values to or from Methods. 
+            // Basically, it means that any change made to a value that is passed by reference will reflect 
+            // this change since you are modifying the value at the address and not just the value. 
+            // Basically, it changes the value outside of the method and not only within it. (Not for global variables)
+
+            if(connected.Count == 0) // if no match
+            {
+                if(wasFlipped)  // If we flipped
+                    FlipPieces(piece.index, flippedPiece.index, false); // flip back
+            }
+            else // If we made a match
+            {
+                foreach(Point pnt in connected) // remove nodes connected
+                {
+                    Node node = getNodeAtPoint(pnt);
+                    NodePiece nodePiece = node.getPiece();
+                    if(nodePiece != null)
+                        nodePiece.gameObject.SetActive(false);
+                    node.SetPiece(null);
+
+                }
+            }
+            flipped.Remove(flip); // Remove the flip after update
             update.Remove(piece);
+        }
+    }
+
+    FlippedPieces getFlipped(NodePiece p)
+    {
+        FlippedPieces flip = null;
+        for (int i = 0; i < flipped.Count; i++)
+        {
+            if (flipped[i].getOtherPiece(p) != null)
+            {
+                flip = flipped[i];
+                break;
+            }
+        }
+        return flip;
+    }
+
+    void removeFlipped(NodePiece p)
+    {
+        FlippedPieces flip = null;
+        for (int i = 0; i < flipped.Count; i++)
+        {
+            if(flipped[i].getOtherPiece(p) != null)
+            {
+                flip = flipped[i];
+            }
         }
     }
 
@@ -113,11 +177,10 @@ public class Match3 : MonoBehaviour
     public void ResetPiece(NodePiece piece)
     {
         piece.ResetPosition();
-        piece.flipped = null; 
         update.Add(piece);
     }
 
-    public void FlipPieces(Point one, Point two)
+    public void FlipPieces(Point one, Point two, bool main)
     {
         if (getValueAtPoint(one) < 0) return;
 
@@ -131,8 +194,8 @@ public class Match3 : MonoBehaviour
             nodeOne.SetPiece(pieceTwo);
             nodeTwo.SetPiece(pieceOne);
 
-            pieceOne.flipped = pieceTwo;
-            pieceTwo.flipped = pieceOne; 
+            if(main)
+            flipped.Add(new FlippedPieces(pieceOne, pieceTwo));
 
             update.Add(pieceOne);
             update.Add(pieceTwo);
@@ -321,5 +384,28 @@ public class Node
     public NodePiece getPiece()
     {
         return piece; 
+    }
+}
+
+
+[System.Serializable]
+public class FlippedPieces
+{
+    public NodePiece one;
+    public NodePiece two;
+
+    public FlippedPieces(NodePiece o, NodePiece t)
+    {
+        one = o; two = t; // What is with the messed up naming? Preferable, nodePieceOne instead of o; 
+    }
+
+    public NodePiece getOtherPiece(NodePiece piece)
+    {
+        if(piece == one)
+            return two;
+            else if (piece == two)
+            return one;
+            else
+            return null;
     }
 }
