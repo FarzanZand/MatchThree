@@ -57,6 +57,7 @@ public class MovePieces : MonoBehaviour
         mouseStart = Input.mousePosition;
     }
 
+    // Called from NodePiece when mouse button is released. If so, reset the piece from the Match3 script. 
     public void DropPiece()
     {
             if (moving == null) return;

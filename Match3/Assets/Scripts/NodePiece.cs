@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class NodePiece : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
-
+    // TODO, figure out image
     // WHY IS THE IMAGE CHANGING!?!?! Initialize is called in Math3, but the sprite is only val-1. How is val random?
 
     public int value;
@@ -74,12 +74,14 @@ public class NodePiece : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         // return false if not moving
     }
 
+    // Mouse is clicked
     public void OnPointerDown(PointerEventData eventData)
     {
         if (updating) return;
         MovePieces.instance.MovePiece(this);
     }
 
+    // Mouse is released
     public void OnPointerUp(PointerEventData eventData)
     {
         MovePieces.instance.DropPiece();
