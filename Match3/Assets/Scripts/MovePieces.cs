@@ -59,12 +59,11 @@ public class MovePieces : MonoBehaviour
 
     public void DropPiece()
     {
-        if (moving == null) return;
-
-        if (!newIndex.Equals(moving.index))
-            game.FlipPieces(moving.index, newIndex, true);
-        else
-            game.ResetPiece(moving);
-        moving = null;
+            if (moving == null) return;
+            if (!newIndex.Equals(moving.index))
+                game.FlipPieces(moving.index, newIndex, true);
+            else
+                game.ResetPiece(moving);
+            moving = null;
     }
 }
