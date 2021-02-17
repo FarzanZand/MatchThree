@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 public class NodePiece : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     // TODO, figure out image
-    // WHY IS THE IMAGE CHANGING!?!?! Initialize is called in Math3, but the sprite is only val-1. How is val random?
+    // WHY IS THE IMAGE CHANGING!?!?! Initialize is called in Math3, but the sprite is only val-1. How is val random? asd 
 
     public int value;
     public Point index;
