@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class Match3 : MonoBehaviour
 {
 
@@ -74,10 +73,10 @@ public class Match3 : MonoBehaviour
             List<Point> connected = isConnected(piece.index, true);
             bool wasFlipped = (flip != null);
 
-            if (wasFlipped) // if we flipped to make this update
+            if (wasFlipped) // if we flipped, make this update
             {
                 flippedPiece = flip.getOtherPiece(piece);
-                AddPoints(ref connected, isConnected(flippedPiece.index, true)); // What is ref? What does it do? What it dooo?
+                AddPoints(ref connected, isConnected(flippedPiece.index, true)); // TODO figure out Ref
             }
 
             // The ref keyword in C# is used for passing or returning references of values to or from Methods. 
@@ -306,7 +305,7 @@ public class Match3 : MonoBehaviour
         if (set != null && val >= 0 && val < pieces.Length)
             set.Initialize(pieces[val], getPositionFromPoint(p));
 
-        // ANIM
+        // ANIMATION 
         imageSwap.TriggerScore();
 
     }
